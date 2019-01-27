@@ -10,7 +10,7 @@ Install following tools to run this project,
   <br />3- pandas
 
 ### Run:
-To run this project, Simply execute Fact_Checker.py file. And pass the given "test.tsv" file.
+To run this project, Simply execute Fact_Checker.py file. And pass the given **test.tsv** file.
 
 ### Procedure:
 1. NER on Fetched Data
@@ -29,5 +29,5 @@ To run this project, Simply execute Fact_Checker.py file. And pass the given "te
   NE.
 
 4. Calculate Probability
-<br />*total_occurances/(total_pages+0.000000001)* using this equation, if we get probability higher or equal to 0.5, this fact is correct.
+<br />**total_occurances/(total_pages+0.000000001)** using this equation, if we get probability higher or equal to 0.5, this fact is correct.
 
