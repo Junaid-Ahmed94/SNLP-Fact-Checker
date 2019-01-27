@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Dec 19 10:20:16 2018
-@author: HP
+@author: Junaid
 """
 
 from nltk import ne_chunk, pos_tag, word_tokenize, ne_chunk_sents, sent_tokenize
