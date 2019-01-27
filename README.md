@@ -24,7 +24,7 @@ To run this project, Simply execute Fact_Checker.py file. And pass the given **t
 3. Check for NE occurences
   <br />Lets assume a sentence from which we get 3 NEs (A, B, C), first we check occurence of NE-'A' in the other NEs wiki pages, then we repeat
   the same check for the other NE wiki pages, i.e, occurence of NE-'A' in B and C wiki pages and so on.
-  <br />We consider multiple occurences of NE in a single wiki pages as one, so total occurences means total number of pages where we found this
+  <br /><br />We consider multiple occurences of NE in a single wiki pages as one, so total occurences means total number of pages where we found this
   NE.
 
 4. Calculate Probability
