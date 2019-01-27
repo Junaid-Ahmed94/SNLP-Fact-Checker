@@ -1,5 +1,9 @@
 # SNLP Fact Checker
 
+## Team Members
+  1. Junaid Ahmed
+  2. Salman Khalid
+
 ### Introduction:
 The basic idea of this project is to check a given fact against Wikipedia. 
 
