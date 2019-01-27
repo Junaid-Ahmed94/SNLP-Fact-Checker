@@ -1,50 +1,33 @@
 # SNLP Fact Checker
 
-
-
-Introduction:
-
+## Introduction:
 The basic idea of this project is to check a given fact against Wikipedia. 
 
-
-
-Installation:
-
+## Installation:
 -Install following tools to run this project,
-
   1- wikipediaapi
-
   2- NLTK 
-
   3- pandas
 
-  
+## Run:
+To run this project, Simply execute Fact_Checker.py file. And pass the given "test.tsv" file.
 
-Run:
-
-To run this project, Simply execute Fact_Checker.py file.
-
-
-
-Procedure:
-
-1. NER on Fetch Data
-
-  After reading data from file, do tokenization on the fetch data using NLTK's word_tokenizer then perform pos tagging. Using ne_chunk_sents we extract continuous Name entities.
+## Procedure:
+1. NER on Fetched Data
+  After reading data from file, do tokenization on the fetch data using NLTK's word_tokenizer then perform pos tagging. Using
+  <bold>ne_chunk_sents<bold/> we extract continuous Name entities.
 
 2. Fetching data from Wikipedia
-
-  We fetch wiki pages against all the fetched NEs, and if these exist a NE for which no wiki page was found, we fetch all the suggestions against this NE.
+  We fetch wiki pages against all the fetched NEs, and if these exist a NE for which no wiki page was found, we fetch all the suggestions
+  against this NE.
 
 3. Check for NE occurences
-
-  Lets assume a sentence from which we get 3 NEs (A, B, C), first we check occurence of NE-'A' in the other NEs wiki pages, then we repeat the same check for the other NE wiki pages, i.e, occurence of NE-'A' in B and C wiki pages and so on. 
+  Lets assume a sentence from which we get 3 NEs (A, B, C), first we check occurence of NE-'A' in the other NEs wiki pages, then we repeat
+  the same check for the other NE wiki pages, i.e, occurence of NE-'A' in B and C wiki pages and so on. 
   
-  We consider multiple occurences of NE in a single wiki pages as one, so total occurences means total number of pages where we found this NE.
-
-  
+  We consider multiple occurences of NE in a single wiki pages as one, so total occurences means total number of pages where we found this
+  NE.
 
 4. Calculate Probability
-
-  " total_occurances/(total_pages+0.000000001) " using this equation, if we get probability higher or equal to 0.5, this fact is correct.
+<bold>total_occurances/(total_pages+0.000000001)<bold/> using this equation, if we get probability higher or equal to 0.5, this fact is correct.
 
