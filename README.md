@@ -9,8 +9,8 @@ The basic idea of this project is to check a given fact against Wikipedia.
 
 ### Installation:
 Install following tools to run this project,
-  <br />1- wikipediaapi
-  <br />2- NLTK 
+  <br />1- wikipedia-api
+  <br />2- NLTK (punkt, words, max_ne_chunker, averaged_preceptron_tagger)
   <br />3- pandas
 
 ### Run:
