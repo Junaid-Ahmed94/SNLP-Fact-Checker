@@ -14,7 +14,7 @@ Install following tools to run this project,
   <br />3- pandas
 
 ### Run:
-To run this project, Simply execute Fact_Checker.py file. And pass the given **test.tsv** file.
+To run this project, Simply execute Fact_Checker.py file. And pass the given **test.tsv** file. (Do update the Test file path in code)
 
 ### Procedure:
 1. NER on Fetched Data
