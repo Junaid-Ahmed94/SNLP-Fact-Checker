@@ -35,14 +35,14 @@ To run this project, Simply execute Fact_Checker.py file. And pass the given **t
 <br />**total_occurances/(total_pages+0.000000001)** using this equation, if we get probability higher or equal to 0.5, this fact is correct.
 
 ### Examples:
-Following are sone True and False facts other than test/train sets.
+Following are some True and False facts other than test/train sets.
 #### True Facts:
 Arthur Conan Doyle's birth place is Edinburgh, United Kingdom.
 <br />Asif Ali Zardari was the President of Pakistan.
 <br />Italy is located in the middle of the Mediterranean Sea.
 <br />Johnny Depp played the title character in Tim Burton's film Edward Scissorhands.
 <br />Sundar Pichai is the CEO of Google.
-#### True Facts:
+#### False Facts:
 Winston Churchill suffer from narcolepsy.
 <br />Justin Trudeau taught snowboarding.
 <br />Elvis Presley was a natural blond.
